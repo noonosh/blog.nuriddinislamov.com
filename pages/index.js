@@ -22,18 +22,12 @@ export default function Home({ allPostsData }) {
 			</Head>
 			<section className={utilStyles.headingMd}>
 				<p>
-					Hi, I am <b>Nuriddin</b>, Software Engineer focusing on
+					🙌 Hi, I am <b>Nuriddin</b>, Software Engineer focusing on
 					Python and JavaScript. You can reach me out on{' '}
 					<a href='https://t.me/nuriddin_i' target='_blank'>
 						Telegram
 					</a>
 					.
-				</p>
-				<p>
-					(This is a sample website - you’ll be building a site like
-					this on{' '}
-					<a href='https://nextjs.org/learn'>our Next.js tutorial</a>
-					.)
 				</p>
 			</section>
 			<section
