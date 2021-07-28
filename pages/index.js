@@ -22,8 +22,8 @@ export default function Home({ allPostsData }) {
 			</Head>
 			<section className={utilStyles.headingMd}>
 				<p>
-					🙌 Hi, I am <b>Nuriddin</b>, Software Engineer focusing on
-					Python and JavaScript. You can reach me out on{' '}
+					🙌 Hi, I am <strong>Nuriddin</strong>, Software Engineer
+					focusing on Python and JavaScript. You can reach me out on{' '}
 					<a href='https://t.me/nuriddin_i' target='_blank'>
 						Telegram
 					</a>
