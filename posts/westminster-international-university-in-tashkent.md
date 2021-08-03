@@ -1,5 +1,5 @@
 ---
-title: 'Yay, graduated! Westminster International University in Tashkent. Thanks and bye bye!'
+title: 'Westminster International University in Tashkent. Thanks and bye bye!'
 date: '2021-05-29'
 ---
 
