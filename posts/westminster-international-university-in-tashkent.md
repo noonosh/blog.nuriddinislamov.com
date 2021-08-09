@@ -1,6 +1,6 @@
 ---
 title: 'Westminster International University in Tashkent. Thanks and bye bye!'
-date: '2021-05-29'
+date: '2021-07-29'
 ---
 
 ### 2020-2021 academic year has played a huge role for my future life.
