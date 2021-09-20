@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
 							<h1 className={utilStyles.heading2Xl}>{name}</h1>
 						</div>
 						<Link href={'/api/info'}>
-							<a target='_blank'>More info</a>
+							<a target='_blank'>More info about me</a>
 						</Link>
 					</>
 				) : (
