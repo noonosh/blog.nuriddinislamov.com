@@ -1,1 +1,3 @@
-Blog web-app.
+# Personal website
+
+(C) Nuriddin Islamov
