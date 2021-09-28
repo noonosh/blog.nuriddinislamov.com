@@ -28,8 +28,8 @@ export default function Home({ allPostsData }) {
 					JavaScript. You can reach me out on{' '}
 					<a href='https://t.me/nuriddin_i' target='_blank'>
 						Telegram
-					</a>
-					.
+					</a>{' '}
+					or <a href='mailto:nuriddinislamov@icloud.com'>mail me</a>.
 				</p>
 			</section>
 			<section
