@@ -95,6 +95,22 @@ export default function Home({ allPostsData }) {
 							</a>
 						</Link>
 					</div>
+					<div>
+						<Link
+							href='https://www.youtube.com/channel/UC4gUvlGVjBo65XdfTnqD_cg'
+							target='_blank'>
+							<a>
+								<Image
+									priority
+									src='/images/youtube.png'
+									className={utilStyles.borderCircle}
+									height={32}
+									width={42}
+									alt='YouTube logo'
+								/>
+							</a>
+						</Link>
+					</div>
 				</div>
 			</footer>
 		</Layout>
