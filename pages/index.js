@@ -29,7 +29,8 @@ export default function Home({ allPostsData }) {
 					<a href='https://t.me/nuriddin_i' target='_blank'>
 						Telegram
 					</a>{' '}
-					or <a href='mailto:nuriddinislamov@icloud.com'>mail me</a>.
+					or <a href='mailto:nuriddinislamov@icloud.com'>e-mail me</a>
+					.
 				</p>
 			</section>
 			<section
