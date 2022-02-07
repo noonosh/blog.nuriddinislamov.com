@@ -54,3 +54,8 @@
 .myName {
 	text-align: center;
 }
+
+.noPosts {
+	font-size: 1.1rem;
+	padding-top: 1.5rem;
+}

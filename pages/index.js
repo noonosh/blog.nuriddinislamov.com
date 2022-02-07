@@ -36,19 +36,25 @@ export default function Home({ allPostsData }) {
 			<section
 				className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
 				<h2 className={utilStyles.headingLg}>Recent posts</h2>
-				<ul className={utilStyles.list}>
-					{allPostsData.map(({ id, date, title }) => (
-						<li className={utilStyles.listItem} key={id}>
-							<Link href={`/posts/${id}`}>
-								<a>{title}</a>
-							</Link>
-							<br />
-							<small className={utilStyles.lightText}>
-								<Date dateString={date} />
-							</small>
-						</li>
-					))}
-				</ul>
+				{allPostsData != 0 ? (
+					<ul className={utilStyles.list}>
+						{allPostsData.map(({ id, date, title }) => (
+							<li className={utilStyles.listItem} key={id}>
+								<Link href={`/posts/${id}`}>
+									<a>{title}</a>
+								</Link>
+								<br />
+								<small className={utilStyles.lightText}>
+									<Date dateString={date} />
+								</small>
+							</li>
+						))}
+					</ul>
+				) : (
+					<div className={utilStyles.noPosts}>
+						No posts published yet :(
+					</div>
+				)}
 			</section>
 			<footer>
 				<div className={`${layoutStyle.footer} ${utilStyles.border}`}>
