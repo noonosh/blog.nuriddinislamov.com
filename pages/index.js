@@ -36,7 +36,7 @@ export default function Home({ allPostsData }) {
 			<section
 				className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
 				<h2 className={utilStyles.headingLg}>Recent posts</h2>
-				{allPostsData != 0 ? (
+				{allPostsData[0].id != 'null' ? (
 					<ul className={utilStyles.list}>
 						{allPostsData.map(({ id, date, title }) => (
 							<li className={utilStyles.listItem} key={id}>
